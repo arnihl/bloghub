@@ -6,31 +6,16 @@ function Cards() {
     return (
         <div className='cards'>
             <h1>BLOGS</h1>
-            <div className='cards-container'>
-                <div className='cards-wrapper'>
-                    <ul className='cards-items'>
+            <div className='cards__container'>
+                <div className='cards__wrapper'>
+                    <ul className='cards__items'>
                         <CardItem 
                             src='images/img-9.jpg'
                             text='Randomtext'
                             path='/blogs'
                         />
-                        <CardItem 
-                            src='images/img-2.jpg'
-                            text='Randomtext'
-                            path='/blogs'
-                        />
-                        <CardItem 
-                            src='images/img-1.jpg'
-                            text='Randomtext'
-                            path='/blogs'
-                        />
-                        <CardItem 
-                            src='images/img-3.jpg'
-                            text='Randomtext'
-                            path='/blogs'
-                        />
                     </ul>
-                    <ul className='cards-items'>
+                    <ul className='cards__items'>
                         <CardItem 
                             src='images/img-9.jpg'
                             text='Randomtext'
