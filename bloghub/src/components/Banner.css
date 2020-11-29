@@ -1,15 +1,33 @@
 .Banner-container {
-    height: 50vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: aqua;
+  background: url("/images/img-home.jpg") center center/cover no-repeat;
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
 }
 
 .Banner-container > h1 {
-    color: plum;
-    font-size: 100px;
-    margin-top: -100px;
+  color: plum;
+  font-size: 100px;
+  margin-top: -100px;
+}
+
+.Banner-container > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Banner-button {
+  color: blue;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+  justify-content: flex;
+  align-items: center;
 }
